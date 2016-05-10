@@ -32,6 +32,6 @@ public class Email extends Model {
     public static Finder<Long,Email> find = new Finder<Long,Email>(Long.class, Email.class);
 
     public void setDeleted(boolean b) { this.deleted = b;}
-    public void setHidden(boolean b) { this.deleted = b;}
-    public void setMain(boolean b) { this.deleted = b;}
+    public void setHidden(boolean b) { this.hidden = b;}
+    public void setMain(boolean b) { this.main = b;}
 }
